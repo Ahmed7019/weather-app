@@ -42,7 +42,7 @@ export default function Weather({ country }) {
 
   const temperature = Math.floor(weatherData.temperature);
   const checkTemperature = (temp) => {
-    if (temp >= 35) return `كان مرقت بتتجغم`;
+    if (temp >= 35) return `أمرق كانتقدر`;
     else if (temp >= 25) return `أمرق بس ما تنداح`;
     else return `أبقى مااارق ما جو قعاد فالبيت`;
   };
