@@ -15,7 +15,7 @@ export default function Form() {
         <div className="flex justify-between">
         <div className="flex gap-x-4 p-2 ">
           <label htmlFor="country" className="font-bold">Country</label>
-          <input ref={inputRef} type="text" name="country" id="country" className="rounded-md"/>
+          <input ref={inputRef} type="text" name="country" id="country" className="rounded-md text-neutral-800"/>
         </div>
         <button type="submit" className="bg-black p-2 rounded-md" onClick={clickHandle}>
           Search
